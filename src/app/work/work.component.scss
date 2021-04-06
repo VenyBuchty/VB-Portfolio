@@ -19,46 +19,43 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+
+  &:hover {
+    background: rgba(223, 223, 223, 0.6);
+  }
+}
+
+.skills {
+  color: #77f27f !important;
+}
+
+.pf-item {
+  background-size: cover;
+  height: 12rem;
+  border-radius: 10px 0 0 10px;
+  filter: grayscale(0.3);
 }
 
 .bg-cr2 {
   background-image: url("../../assets/img/cr2.png");
-  background-size: cover;
-  height: 12rem;
-  border-radius: 10px 0 0 10px;
 }
 
 .bg-cr3 {
   background-image: url("../../assets/img/cr3.png");
-  background-size: cover;
-  height: 12rem;
-  border-radius: 10px 0 0 10px;
 }
 
 .bg-cr4 {
   background-image: url("../../assets/img/cr4.png");
-  background-size: cover;
-  height: 12rem;
-  border-radius: 10px 0 0 10px;
 }
 
 .bg-cr5 {
   background-image: url("../../assets/img/cr5.png");
-  background-size: cover;
-  height: 12rem;
-  border-radius: 10px 0 0 10px;
 }
 
 .bg-cr6 {
   background-image: url("../../assets/img/cr6.png");
-  background-size: cover;
-  height: 12rem;
-  border-radius: 10px 0 0 10px;
 }
 
 .bg-cr7 {
   background-image: url("../../assets/img/cr7.png");
-  background-size: cover;
-  height: 12rem;
-  border-radius: 10px 0 0 10px;
 }
