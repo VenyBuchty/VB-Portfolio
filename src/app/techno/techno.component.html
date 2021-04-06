@@ -1,0 +1,22 @@
+
+<div class="techno" id="technologies">
+    <div class="container">
+            <div class="row g-5">
+            <h2 class="display-5 fw-bold text-center text-white">Technologies I can use</h2>
+            <p class="text-white text-center mb-5 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium mollitia enim sapiente pariatur debitis officiis nulla inventore autem officia repellendus, magni maxime placeat consequatur perferendis in et exercitationem doloribus voluptas. Sit vitae excepturi blanditiis perferendis dignissimos error maiores accusamus nobis in quod eveniet, nemo asperiores ad voluptates veritatis fugit earum doloribus! Quod, reiciendis quibusdam? Nulla, labore aut! Magni, magnam debitis.</p>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 " *ngFor="let subject of Techno">
+                <div class="card-techno">
+                    <img src="{{subject.img}}" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h3 class="card-title text-white pb-3">{{subject.name}}</h3>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width:{{subject.width}}%" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</div>

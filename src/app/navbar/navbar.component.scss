@@ -1,0 +1,17 @@
+.navbar {
+  -webkit-box-shadow: 0px 5px 20px -4px #000000;
+  box-shadow: 0px 5px 20px -4px #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #77f27f;
+}
+
+ul {
+  li {
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}
