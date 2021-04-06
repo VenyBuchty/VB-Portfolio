@@ -37,7 +37,7 @@ Techno = [
       width: 70
     },{
       name: "Bootstrap",
-      img: "../../assets/img/html.png",
+      img: "../../assets/img/boot.png",
       width: 90
     }
 ]
