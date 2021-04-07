@@ -29,7 +29,12 @@
   }
 }
 
-.skills {
+.card-text {
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.fab {
   color: #77f27f !important;
 }
 
