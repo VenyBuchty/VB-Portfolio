@@ -20,3 +20,17 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+.msg {
+  color: #77f27f;
+}
+
+.bg-btn {
+  background-color: #54b5bf;
+  border: 1px solid white;
+  font-weight: 700;
+
+  &:hover {
+    background-color: #77f27f;
+  }
+}
