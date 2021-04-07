@@ -46,3 +46,27 @@ img {
 .hl {
   color: #77f27f;
 }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .btn {
+    border-radius: 10px;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    &:hover {
+      color: #77f27f;
+    }
+
+    img {
+      height: 2rem;
+      border-radius: 20px;
+      border: 1px solid white;
+      margin-left: 1rem;
+    }
+  }
+}

@@ -29,9 +29,8 @@
   }
 }
 
-.card-text {
-  padding: 1rem;
-  flex-direction: column;
+.badge {
+  border-radius: 10px;
 }
 
 .fab {
@@ -41,7 +40,7 @@
 .pf-item {
   background-size: cover;
   height: 12rem;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
   filter: grayscale(0.3);
 }
 
