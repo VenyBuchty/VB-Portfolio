@@ -7,6 +7,10 @@
   background-size: cover;
   background-attachment: fixed;
   text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+  -webkit-animation: 30s ease-in-out infinite reverse;
+  -moz-animation: 30s ease-in-out infinite reverse;
+  -ms-animation: 30s ease-in-out infinite reverse;
+  -o-animation: 30s ease-in-out infinite reverse;
   animation: animate 30s ease-in-out infinite reverse;
 }
 
@@ -53,10 +57,12 @@ img {
   justify-content: center;
 
   .btn {
+    min-width: 10rem;
     border-radius: 10px;
     margin: 0.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: 700;
     &:hover {
       color: #77f27f;
@@ -65,6 +71,7 @@ img {
     img {
       height: 2rem;
       border-radius: 20px;
+      background-color: white;
       border: 1px solid white;
       margin-left: 1rem;
     }

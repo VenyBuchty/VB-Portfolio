@@ -1,15 +1,15 @@
 <div class="contact" id="contact">
     <div class="container">
-        <div class="row g-5 d-flex align-items-center">
+        <div class="row g-5 d-flex align-items-center justify-content-center">
             <h2 class="display-5 fw-bold text-center text-white">Contact me</h2>
-            <p class="text-white text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates enim facilis, nemo tenetur molestias esse? Fuga dolores quo et, natus exercitationem obcaecati consectetur, repellat placeat veniam officiis vel eum voluptas?</p>
+            <p class="text-white text-center mb-5">Do you have an intersting project where you need a pair of helping hands? <br> You work in tech and would like to invite me for an interview? Feel free to reach out! <br> If you're a creep, don't. </p>
             <div class="row">
-                <div class="col card-contact">
+                <div class="col-12 card-contact">
                     <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
                         <div class="form-group text-white mt-3">
                             <label for="Email">Your email</label>
                             <input type="email" class="form-control" name="Email" aria-describedby="emailHelp"
-                                placeholder="Enter email" formControlName="Email">
+                                placeholder="your@email.org" formControlName="Email">
                             <small id="emailHelp" class="form-text msg">I'll never share your email with anyone
                                 else.</small>
                         </div>
@@ -20,7 +20,7 @@
                         </div>
                         <div class="form-group text-white mt-3">
                             <label for="comment">Your message</label>
-                            <textarea class="form-control" formControlName="Comment" name="Comment">
+                            <textarea placeholder="Hi Vendula, I have job for you!" class="form-control" formControlName="Comment" name="Comment">
             </textarea>
                         </div>
                         <div class="text-center">

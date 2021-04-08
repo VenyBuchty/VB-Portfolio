@@ -1,0 +1,50 @@
+.hero {
+  padding-top: 5rem;
+  background: #273940;
+  background: linear-gradient(126deg, #273940 0%, #3f7e8c 50%, #54b5bf 100%);
+  min-height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 10s ease-in-out infinite;
+  animation: AnimationName 10s ease-in-out infinite;
+  text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+img {
+  width: 20rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 20px -4px #000000;
+  box-shadow: 0px 5px 20px -4px #000000;
+  -webkit-filter: grayscale(0.3);
+          filter: grayscale(0.3);
+}
+
+.hl {
+  color: #77f27f;
+}
+/*# sourceMappingURL=hero.component.css.map */

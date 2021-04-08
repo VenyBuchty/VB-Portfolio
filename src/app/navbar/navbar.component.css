@@ -8,11 +8,10 @@
   color: #77f27f;
 }
 
-ul {
-  li {
-    text-align: center;
-    margin: 0 2rem;
-    font-size: 1.3rem;
-    font-weight: 700;
-  }
+ul li {
+  text-align: center;
+  margin: 0 2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
+/*# sourceMappingURL=navbar.component.css.map */

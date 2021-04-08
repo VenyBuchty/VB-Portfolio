@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-techno',
@@ -43,7 +44,8 @@ Techno = [
 ]
   constructor() { }
 
-  ngOnInit(): void {
+ ngOnInit(){
+    AOS.init();
   }
 
 }
