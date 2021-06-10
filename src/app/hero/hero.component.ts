@@ -12,7 +12,9 @@ AOS:any;
   constructor() { }
 
   ngOnInit(){
-    AOS.init();
+    AOS.init({
+      once: true
+    });
   }
 
 }

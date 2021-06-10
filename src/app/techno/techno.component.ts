@@ -40,12 +40,39 @@ Techno = [
       name: "Bootstrap",
       img: "../../assets/img/boot.png",
       width: 90
+    },{
+      name: "MySQL",
+      img: "../../assets/img/sql.png",
+      width: 70
+    },{
+      name: "PHP",
+      img: "../../assets/img/php.png",
+      width: 50
+    },{
+      name: "Symfony",
+      img: "../../assets/img/symfo.png",
+      width: 40
+    },{
+      name: "XAMPP",
+      img: "../../assets/img/xampp.png",
+      width: 80
+    },{
+      name: "AJAX",
+      img: "../../assets/img/ajax.png",
+      width: 30
+    },{
+      name: "jQuery",
+      img: "../../assets/img/jquery.png",
+      width: 50
     }
+    
 ]
   constructor() { }
 
  ngOnInit(){
-    AOS.init();
+    AOS.init({
+      once: true
+    });
   }
 
 }
