@@ -1,6 +1,8 @@
 import { Component, HostListener, ElementRef } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
-
+declare var gtag;
 
 @Component({
   selector: 'app-root',
@@ -35,5 +37,15 @@ export class AppComponent  {
       left: 0, 
       behavior: 'smooth' 
     });
+  }
+
+  title = 'analytics';
+  constructor(router: Router) {
+     const navEndEvents = router.events.pipe(
+      filter(event => event instanceof NavigationEnd),
+    );
+    navEndEvents.subscribe((event: NavigationEnd) => {
+      gtag('config', 'G-EB0TM2DXHZ');
+    })
   }
 }

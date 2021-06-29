@@ -1,3 +1,4 @@
+import { localizedString } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 import AOS from 'aos';
 
@@ -27,7 +28,7 @@ Techno = [
     },{
       name: "Angular",
       img: "../../assets/img/angular.png",
-      width: 80
+      width: 50
     },{
       name: "Sass",
       img: "../../assets/img/sass.png",
@@ -35,7 +36,7 @@ Techno = [
     },{
       name: "TypeScript",
       img: "../../assets/img/type.png",
-      width: 70
+      width: 50
     },{
       name: "Bootstrap",
       img: "../../assets/img/boot.png",
@@ -64,6 +65,16 @@ Techno = [
       name: "jQuery",
       img: "../../assets/img/jquery.png",
       width: 50
+    },{
+      name: "React",
+      comment: "currently learning",
+      img: "../../assets/img/react.png",
+      width: 5
+    },{
+      name: "Vue.js",
+      comment: "upcoming",
+      img: "../../assets/img/vue.png",
+      width: 0
     }
     
 ]

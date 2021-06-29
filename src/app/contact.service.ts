@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators'
   providedIn: 'root'
 })
 export class ContactService {
-private mailApi = 'https://mailthis.to/vendel.b@seznam.cz'
+private mailApi = 'https://mailthis.to/vendulabuchtova@email.cz'
 
   constructor(private http: HttpClient) { }
 

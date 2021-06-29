@@ -57,19 +57,20 @@ img {
   justify-content: center;
 
   .btn {
-    min-width: 10rem;
     border-radius: 10px;
     margin: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.356);
+    border: none;
     &:hover {
-      color: #77f27f;
+      background-color: #77f27f;
     }
 
     img {
-      height: 2rem;
+      height: 1.7rem;
       border-radius: 20px;
       background-color: white;
       border: 1px solid white;
