@@ -1,23 +1,24 @@
-
 <div class="techno" id="technologies">
     <div class="container">
-            <div class="row g-5">
+        <div class="row g-5">
             <h2 class="display-5 fw-bold text-center text-white">Technologies</h2>
-            <p class="text-white text-center mb-5 ">I have experience with <span class="hl">front-end</span> as well as with <span class="hl">back-end</span> technologies. I create <span class="hl">fast, responsive</span> and <span class="hl">pretty-ok-looking </span>websites. <br>Watch this list below get longer! </p>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 "  *ngFor="let subject of Techno">
+            <p class="text-white text-center mb-5 ">I have experience with <span class="hl">front-end</span> as well as
+                with <span class="hl">back-end</span> technologies. I create <span class="hl">fast, responsive</span>
+                and <span class="hl">pretty-ok-looking </span>websites. <br>Watch this list below get longer! </p>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 " *ngFor="let subject of Techno">
                 <div class="card-techno">
                     <img src="{{subject.img}}" class="card-img-top" alt="...">
                     <div class="card-body text-center text-white">
                         <h3 class="card-title">{{subject.name}}</h3>
                         {{subject.comment}}
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated " data-aos="fade-right" data-aos-duration="1500" role="progressbar" style="width:{{subject.width}}%" aria-valuenow="75" aria-valuemin="0"
-                                aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated " data-aos="fade-right"
+                                data-aos-duration="1500" role="progressbar" style="width:{{subject.width}}%"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-   
 </div>

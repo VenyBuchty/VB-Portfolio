@@ -21,14 +21,11 @@ Comment: new FormControl('', [Validators.required])
 }
 
  onSubmit(FormData) {
-    console.log(FormData)
     this.contact.PostMessage(FormData)
       .subscribe(response => {
         location.href = 'https://mailthis.to/confirm'
-        console.log(response)
       }, error => {
         console.warn(error.responseText)
-        console.log({ error })
       })
   }
 

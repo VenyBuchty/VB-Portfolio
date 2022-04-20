@@ -18,29 +18,42 @@ Techno = [
       img: "../../assets/img/css.png",
       width: 90
     },{
-      name: "JavaScript",
-      img: "../../assets/img/js.png",
-      width: 50
-    },{
-      name: "GitHub",
-      img: "../../assets/img/github.png",
-      width: 95
-    },{
-      name: "Angular",
-      img: "../../assets/img/angular.png",
-      width: 50
-    },{
       name: "Sass",
       img: "../../assets/img/sass.png",
       width: 80
     },{
-      name: "TypeScript",
-      img: "../../assets/img/type.png",
-      width: 50
-    },{
       name: "Bootstrap",
       img: "../../assets/img/boot.png",
       width: 90
+    },{
+      name: "JavaScript",
+      img: "../../assets/img/js.png",
+      width: 70
+    },{
+      name: "NodeJS",
+      img: "../../assets/img/nodejs.png",
+      width: 70
+    },{
+      name: "jQuery",
+      img: "../../assets/img/jquery.png",
+      width: 70
+    },{
+      name: "AJAX",
+      img: "../../assets/img/ajax.png",
+      width: 70
+    },{
+      name: "Angular",
+      img: "../../assets/img/angular.png",
+      width: 40
+    },{
+      name: "React",
+      comment: "currently learning",
+      img: "../../assets/img/react.png",
+      width: 5
+    },{
+      name: "Git",
+      img: "../../assets/img/git.png",
+      width: 80
     },{
       name: "MySQL",
       img: "../../assets/img/sql.png",
@@ -48,33 +61,7 @@ Techno = [
     },{
       name: "PHP",
       img: "../../assets/img/php.png",
-      width: 50
-    },{
-      name: "Symfony",
-      img: "../../assets/img/symfo.png",
-      width: 40
-    },{
-      name: "XAMPP",
-      img: "../../assets/img/xampp.png",
-      width: 80
-    },{
-      name: "AJAX",
-      img: "../../assets/img/ajax.png",
       width: 30
-    },{
-      name: "jQuery",
-      img: "../../assets/img/jquery.png",
-      width: 50
-    },{
-      name: "React",
-      comment: "currently learning",
-      img: "../../assets/img/react.png",
-      width: 5
-    },{
-      name: "Vue.js",
-      comment: "upcoming",
-      img: "../../assets/img/vue.png",
-      width: 0
     }
     
 ]
